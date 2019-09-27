@@ -1,0 +1,29 @@
+
+<svg version="1.1" id="final_loader_000" xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+	<style>
+		@keyframes circleAnimation{0%{transform:rotate(0deg);stroke-dasharray:1600,0}16%{stroke-dasharray:1600,1100}90%,to{transform:rotate(630deg);stroke-dasharray:1600,0}}@keyframes rotateAnimation{0%,24.9%{transform:rotate(0deg)}25%,49.9%{transform:rotate(90deg)}50%,74.9%{transform:rotate(180deg)}75%,99.9%{transform:rotate(270deg)}}
+		@keyframes squareAnimation{
+		0%{transform:rotate(0deg)}
+		to{transform:rotate(360deg)}}#metaCircle{animation:6s infinite rotateAnimation}#circle{transform-origin:0 0!important;animation:1.5s cubic-bezier(.4,0,.2,1) infinite circleAnimation}
+		#square{transform-origin:center center !important;animation:3s cubic-bezier(.72,.03,.33,1) infinite squareAnimation}
+	</style>
+<g id="OUTER" transform="translate(402 402) scale(.9932)">
+	<g id="metaCircle">
+		<path id="circle" fill="none" stroke="#fff" stroke-width="36" stroke-dasharray="1600,0" stroke-dashoffset="760" d="
+			M0-358.45c197.967,0,358.447,160.48,358.447,358.45S197.969,358.45,0,358.45c-197.97,0-358.45-160.48-358.45-358.45
+			S-197.97-358.45,0-358.45z"/>
+	</g>
+</g>
+<g id="square">
+	<path fill="#fff"  d="M374.512,216.621L234.591,553.068c-0.583,2.569,0.609,3.917,3.4,4.253l378.462-3.973
+		c32.846-0.385,73.781-10.944,103.098-26.771c14.06-36.43,22.118-56.249,24.949-97.578c2.5-36.5-5.749-77.703-6.5-78
+		c-40.707-15.268-59.336,6.004-63.383,12.114c0,0-19.354-32.038-56.479-30.521c-37.123,1.542-55.464,38.683-55.464,38.683
+		s-30.537-0.508-44.806,25.956c-14.269,26.45-5.061,58.026-5.061,58.026s-44.982,10.559-70.066-9.06
+		c-25.063-19.641-24.775-54.764-18.524-69.556l67.633-160.461c0.231-1.441-0.285-2.985-1.529-3.349l-109.438-0.399
+		C377.807,212.665,375.732,214.158,374.512,216.621L374.512,216.621z M605.558,411.253c0,0-5.552,47.586,36.631,42.522
+		c35.336-4.247,41.225-20.906,37.073-28.845c-2.882-5.448-8.82-5.501-12.608-4.463c-2.959,0.775-6.047,3.112-12.528,4.979
+		c-6.485,1.813-16.709,2.206-19.435-6.803c-2.229-7.396,5.398-18.146,21.767-18.146c16.448,0,42.754,13.09,27.242,49.724
+		c-15.517,36.658-74.56,33.188-87.792,30.536c-13.278-2.647-31.728-8.303-44.674-20.497c-13.126-12.376-16.082-33.595-6.483-46.673
+		C563.866,387.584,593.103,401.828,605.558,411.253z"/>
+</g>
+</svg>
