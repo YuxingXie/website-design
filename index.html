@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/theme/dark/dark.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap_enhance/bootstrap.enhance.4.1.3.css"/>
     <!--[if lt IE 9]>
     <script src="./assets/js/html5shiv.js"></script>
     <script src="./assets/js/respond.min.js"></script>
@@ -13,33 +14,37 @@
 </head>
 <body>
 
-<nav class="navbar navbar-dark bg-dark">
-    <div class="navbar-brand logo" aria-label="Front">
-        <img src="./assets/img/logo.svg" class="logo1" alt="Logo">
-        <img src="./assets/img/logo1.svg" class="logo2" alt="Logo">
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="navbar-brand" aria-label="Front">
+        <img src="./assets/img/logo.svg" class="w-100px" alt="Logo"/>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">案例</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">特色</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">关于我们</a>
             </li>
         </ul>
-        <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </div>
 </nav>
 
 </body>
-
+<script src="./assets/js/jquery-3.2.1.slim.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
 </html>
