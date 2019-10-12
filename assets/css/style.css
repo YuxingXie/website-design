@@ -361,6 +361,9 @@ main {
   padding: 20px;
   margin: 0 10px;
 }
+.product-box :hover{
+  animation: moveUp 0.2s ease-in forwards;
+}
 .product-container .anim-in {
   animation: moveUp 0.2s ease-in forwards;
 }
